@@ -26,7 +26,7 @@ export const putDb = async (content) => {
   const store = tx.objectStore('jate');
 
   // use the .put() method and pass in content to add to jate database
-  const request = store.put(content);
+  const request = store.put({ id: 1, value: content});
 
   // get confirmation of request
   const result = await request;
