@@ -1,4 +1,4 @@
-# Just Another Text Editor
+# Just Another Text Editor (PWA)
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 
 ## Description
