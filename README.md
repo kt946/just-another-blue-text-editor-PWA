@@ -1,4 +1,4 @@
-# Just Another Blue Text Editor
+# Just Another Text Editor
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://opensource.org/licenses/MIT)
 
 ## Description
