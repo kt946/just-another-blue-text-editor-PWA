@@ -39,6 +39,7 @@ To use this application, navigate to links section and click on the link to the 
 
 The following images demonstrate the application's appearance and functionality.
 
+![text-editor-24339 herokuapp com_](https://user-images.githubusercontent.com/103476893/193425044-dc826ebb-387f-4546-8442-8cea374e3f49.png)
 
 ## Technologies Used
 
