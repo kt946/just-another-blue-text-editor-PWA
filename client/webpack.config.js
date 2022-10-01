@@ -19,22 +19,26 @@ module.exports = () => {
     },
     // plugins for service worker and manifest file
     plugins: [
+      // used to generate a HTML page in build directory
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'WebpackPlugin'
       }),
+      // precache files and have more control over the service worker
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js'
       }),
+      // generates a manifest.json
       new WebpackPwaManifest({
-        fingerprints: false,
-        inject: true,
         name: 'Just Another Text Editor',
         short_name: 'J.A.T.E.',
         description: 'Takes notes with JavaScript syntax highlighting!',
         background_color: '#225ca3',
         theme_color: '#225ca3',
+        // set fingerprints false for logo to work
+        fingerprints: false,
+        inject: true,
         start_url: '/',
         publicPath: '/',
         icons: [
