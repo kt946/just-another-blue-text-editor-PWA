@@ -54,7 +54,7 @@ The following images demonstrate the application's appearance and functionality.
 
 ## Links
 
-- [Link to deployed application on Heroku](https://text-editor-24339.herokuapp.com/)
+- [Link to deployed application](https://just-another-text-editor.onrender.com/)
 
 - [Link to GitHub repository](https://github.com/kt946/just-another-blue-text-editor-PWA)
 
